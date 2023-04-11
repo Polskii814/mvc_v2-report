@@ -1,0 +1,16 @@
+{% extends "base.html.twig" %}
+
+{% block title %}About{% endblock %}
+
+{% block body %}
+<h1>About</h1>
+<div class="row" style="margin-top: 20px;">
+    <div class="column">Kursen Objektorienterade webbteknologier, a.k.a. mvc, fokuserar på objektorienterade programmeringstekniker i programmeringsspråket PHP. Klassiska objektorienterade konstruktioner hanteras tillsammans med objektorienterad programmering i webbaserat ramverk tillsammans med databaser samt enhetstestning</div>
+    <div class="column">
+    <a href="{{ asset('img/symfony.jpg')}}"
+         data-lightbox="symfony"
+         data-title="Symfony">
+          <img src="{{ asset('img/symfony.jpg')}}" alt="Symfony" style="width:100%">
+    </div>
+</div>
+{% endblock %}
